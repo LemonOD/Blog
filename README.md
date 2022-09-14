@@ -1,4 +1,4 @@
-# project-planner
+# OD blog
 
 ## Project setup
 ```
