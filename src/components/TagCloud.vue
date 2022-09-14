@@ -39,6 +39,10 @@ export default {
     color: #ccc;
     text-decoration: none;
   }
+  .tag-cloud div :hover {
+    color: #ff8800;
+    text-decoration: none;
+  }
   .tag-cloud a.router-link-active {
     color: #ff8800;
     font-weight: bold;

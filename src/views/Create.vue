@@ -110,6 +110,7 @@ label::before {
 
 button {
   display: block;
+  float: right;
   margin-top: 30px;
   background: #ff8800;
   color: white;
