@@ -1,6 +1,8 @@
 <template>
   <header>
-    <h1>The OD Blog</h1>
+    <router-link :to="{ name: 'Home' }">
+      <h1>The OD Blog</h1>
+    </router-link>
     <nav>
       <router-link :to="{ name: 'Home' }">Home</router-link>
       <router-link :to="{ name: 'Create' }">Create Post</router-link>
@@ -17,6 +19,7 @@ export default {
 <style>
   header {
     display: flex;
+    background: #ff8800;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
@@ -28,7 +31,7 @@ export default {
     font-size: 48px;
   }
   header a {
-    color: #bbb;
+    color: #ffffff;
     text-decoration: none;
     margin-left: 20px;
   }

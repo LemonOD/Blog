@@ -13,7 +13,7 @@
 <script>
 import getPost from '../composables/getPost'
 import { useRoute, useRouter } from 'vue-router'
-import { projectFirestore } from '../firebase/config'
+import { projectFirestore } from '@/firebase/config'
 
 // component imports
 import Spinner from '../components/Spinner.vue'
@@ -43,7 +43,7 @@ export default {
 
 <style scoped>
   .post {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
   }
   .post p {
