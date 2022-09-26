@@ -25,6 +25,8 @@ export default {
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 16px #dfdfdf !important;;
   }
   header h1 {
     color: #dfdfdf;
